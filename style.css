@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.parent {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.parent .circle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: lightblue;
+  border-radius: 50%;
+}
